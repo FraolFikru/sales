@@ -2,24 +2,24 @@
    Bistro Ledger — visual system
    Layout: sidebar + work area on desktop; compact top bar and
    bottom tabs on phones.
-   Dark-first: deep charcoal (#0b0f19), high-contrast neutral text,
+   Dark-first: pure black (#000000), high-contrast neutral text,
    green for money in, coral for money out. Blue appears only as a
    hover / focus glow — never as a resting background. No gold.
    ========================================================= */
 
 :root {
-  --bg: #0b0f19;
-  --surface: #111725;
-  --surface-2: #161d2d;
-  --surface-3: #1e2638;
-  --line: #222b3d;
-  --line-strong: #2e3a52;
+  --bg: #000000;
+  --surface: #0a0a0a;
+  --surface-2: #111111;
+  --surface-3: #1a1a1a;
+  --line: #2a2a2a;
+  --line-strong: #333333;
   --text: #e8ecf3;
   --muted: #98a2b6;
   --faint: #68728a;
 
   --primary: #e8ecf3;
-  --primary-ink: #0b0f19;
+  --primary-ink: #000000;
 
   --sale: #5bd18b;
   --sale-soft: rgba(91, 209, 139, 0.12);
@@ -41,7 +41,7 @@
 
   --shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 10px 26px -18px rgba(0, 0, 0, 0.9);
   --shadow-pop: 0 18px 40px -12px rgba(0, 0, 0, 0.8), 0 2px 6px rgba(0, 0, 0, 0.4);
-  --scrim: rgba(2, 4, 10, 0.66);
+  --scrim: rgba(0, 0, 0, 0.72);
 
   --font: "Hanken Grotesk", "Noto Sans Ethiopic", "Segoe UI", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
